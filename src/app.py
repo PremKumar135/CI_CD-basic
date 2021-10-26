@@ -4,7 +4,8 @@ app =Flask(__name__)
 
 @app.route('/')
 def index():
-    print("Hello World!")
+    msg = "Hello, world!"
+    return msg
 
 if __name__ == '__main__':
     app.run()
